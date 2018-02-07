@@ -1,0 +1,21 @@
+{
+	"HttpPort":":16689",
+	"MongoAddr":"172.31.42.213:27017",
+	"MongoDB":"kefu",
+	"WeChat":{
+		"ChatCollection":"chat",
+		"RoomMemberCollection":"roomMember",
+		"FriendCollection":"friend"
+	},
+	"KefuBackendAddr":"http://kefu.shandian66.com:888",
+
+	"LogLevel":"info",
+	"FileWriter":{
+		"LogPath":"log/info-%Y%M%D.log",
+		"On":true
+	},
+	"ConsoleWriter":{
+		"On":true,
+		"Color":false	
+	}
+}

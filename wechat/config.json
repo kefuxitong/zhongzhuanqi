@@ -1,0 +1,24 @@
+{
+	"HttpPort":":16688",
+	"RedisAddr":"localhost:6379",
+	"RedisPwd":"",
+	"MongoAddr":"172.31.42.213:27017",
+	"MongoDB":"kefu",
+	"WeChat":{
+		"ChatCollection":"chat",
+		"RoomMemberCollection":"roomMember",
+		"FriendCollection":"friend"
+	},
+	"ControllerAddr":"gateway.shandian66.com:7100",
+	"KefuBackendAddr":"http://120.79.20.53:888",
+
+	"LogLevel":"info",
+	"FileWriter":{
+		"LogPath":"log/info-%Y%M%D.log",
+		"On":true
+	},
+	"ConsoleWriter":{
+		"On":true,
+		"Color":false	
+	}
+}
