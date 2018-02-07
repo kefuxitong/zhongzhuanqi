@@ -1,6 +1,6 @@
 {
 	"HttpPort":":16688",
-	"RedisAddr":"localhost:6379",
+	"RedisAddr":"shangdian.a29miy.ng.0001.apne1.cache.amazonaws.com:12307",
 	"RedisPwd":"",
 	"MongoAddr":"172.31.42.213:27017",
 	"MongoDB":"kefu",
@@ -10,7 +10,7 @@
 		"FriendCollection":"friend"
 	},
 	"ControllerAddr":"gateway.shandian66.com:7100",
-	"KefuBackendAddr":"http://120.79.20.53:888",
+	"KefuBackendAddr":"http://kefu.shandian66.com:888",
 
 	"LogLevel":"info",
 	"FileWriter":{
