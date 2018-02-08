@@ -7,7 +7,7 @@
 		"RoomMemberCollection":"roomMember",
 		"FriendCollection":"friend"
 	},
-	"KefuBackendAddr":"http://kefu.shandian66.com:888",
+	"KefuBackendAddr":"https://kefu.shandian66.com",
 
 	"LogLevel":"info",
 	"FileWriter":{
